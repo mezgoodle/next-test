@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import styles from '../styles/Dropdown.module.css'
 
 const SideNavbar = () => {
   return (
@@ -11,7 +11,7 @@ const SideNavbar = () => {
         <li>
             <a className="dropdown-item" href="Lab1.html">Загальна сторінка</a>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_1_1.html">Характеристика об’єкта
                 автоматизації</a>
             <ul className="dropdown-menu">
@@ -25,7 +25,7 @@ const SideNavbar = () => {
                 <li><a href="Lab1_1_5.html" className="dropdown-item">1.5. Сценарій дій системи</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_2_1.html">ООД
                 предметного середовища</a>
             <ul className="dropdown-menu">
@@ -38,7 +38,7 @@ const SideNavbar = () => {
                     замовника</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_3_1.html">Проектування ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_3_1.html" className="dropdown-item">3.1. Проектування
@@ -46,7 +46,7 @@ const SideNavbar = () => {
                     ПЗ</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_4_1.html">Кодування (програмування)</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_4_1.html" className="dropdown-item">4.1 Файлова
@@ -57,7 +57,7 @@ const SideNavbar = () => {
                     вигляді таблиці</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_5_1.html">Впровадження та супроводження ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_5_1.html" className="dropdown-item">5.1. Посилання на
@@ -79,7 +79,7 @@ const SideNavbar = () => {
         <li>
             <a className="dropdown-item" href="Lab2_1_1.html">Тема, мета та постановка задачі ЛР №2</a>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab2_2_1.html">Проектування структури ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab2_2_1.html" className="dropdown-item">2.1. Таблиця
@@ -88,7 +88,7 @@ const SideNavbar = () => {
                 </li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab2_3_1.html">Кодування ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab2_3_1.html" className="dropdown-item">3.1. Файлова
@@ -99,7 +99,7 @@ const SideNavbar = () => {
                     класу Program</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab2_4_1.html">Впровадження та супроводження ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab2_4_1.html" className="dropdown-item">4.1 Папка з
@@ -131,7 +131,7 @@ const SideNavbar = () => {
             <a className="dropdown-item" href="Lab3_3_1.html">Класи з описом властивостей для
                 закритих полів</a>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab3_4_1.html">Проектування структури
                 ПЗ</a>
             <ul className="dropdown-menu">
@@ -139,7 +139,7 @@ const SideNavbar = () => {
                     діаграма класів</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab3_5_1.html">Кодування ПЗ (програмування)</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab3_5_1.html" className="dropdown-item">5.1 Файлова
@@ -148,7 +148,7 @@ const SideNavbar = () => {
                     код всіх файлів. Результат виконання програми.</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab3_6_1.html">Впровадження та супроводження ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab3_6_1.html" className="dropdown-item">6.1 Папка з
@@ -183,7 +183,7 @@ const SideNavbar = () => {
                     діаграма класів</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab4_4_1.html">Кодування ПЗ (програмування)</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab4_4_1.html" className="dropdown-item">4.1 Перевантаження
@@ -196,7 +196,7 @@ const SideNavbar = () => {
                     структура проекту</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab4_5_1.html">Впровадження та супроводження ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab4_5_1.html" className="dropdown-item">5.1 Папка з
@@ -205,7 +205,7 @@ const SideNavbar = () => {
                     файлу</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab4_6_1.html">Висновки</a>
         </li>
     </ul>
@@ -214,7 +214,7 @@ const SideNavbar = () => {
         Lab 5
     </button>
     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_1_1.html">Характеристика об’єкта
                 автоматизації</a>
             <ul className="dropdown-menu">
@@ -228,7 +228,7 @@ const SideNavbar = () => {
                 <li><a href="Lab1_1_5.html" className="dropdown-item">1.5. Сценарій дій системи</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_2_1.html">ООД
                 предметного середовища</a>
             <ul className="dropdown-menu">
@@ -241,7 +241,7 @@ const SideNavbar = () => {
                     замовника</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_3_1.html">Проектування ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_3_1.html" className="dropdown-item">3.1. Проектування
@@ -249,7 +249,7 @@ const SideNavbar = () => {
                     ПЗ</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_4_1.html">Кодування (програмування)</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_4_1.html" className="dropdown-item">4.1 Файлова
@@ -260,7 +260,7 @@ const SideNavbar = () => {
                     вигляді таблиці</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_5_1.html">Впровадження та супроводження ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_5_1.html" className="dropdown-item">5.1. Посилання на
@@ -276,7 +276,7 @@ const SideNavbar = () => {
         Lab 6
     </button>
     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_1_1.html">Характеристика об’єкта
                 автоматизації</a>
             <ul className="dropdown-menu">
@@ -290,7 +290,7 @@ const SideNavbar = () => {
                 <li><a href="Lab1_1_5.html" className="dropdown-item">1.5. Сценарій дій системи</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_2_1.html">ООД
                 предметного середовища</a>
             <ul className="dropdown-menu">
@@ -303,7 +303,7 @@ const SideNavbar = () => {
                     замовника</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_3_1.html">Проектування ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_3_1.html" className="dropdown-item">3.1. Проектування
@@ -311,7 +311,7 @@ const SideNavbar = () => {
                     ПЗ</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_4_1.html">Кодування (програмування)</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_4_1.html" className="dropdown-item">4.1 Файлова
@@ -322,7 +322,7 @@ const SideNavbar = () => {
                     вигляді таблиці</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_5_1.html">Впровадження та супроводження ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_5_1.html" className="dropdown-item">5.1. Посилання на
@@ -338,7 +338,7 @@ const SideNavbar = () => {
         Lab 7
     </button>
     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_1_1.html">Характеристика об’єкта
                 автоматизації</a>
             <ul className="dropdown-menu">
@@ -352,7 +352,7 @@ const SideNavbar = () => {
                 <li><a href="Lab1_1_5.html" className="dropdown-item">1.5. Сценарій дій системи</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_2_1.html">ООД
                 предметного середовища</a>
             <ul className="dropdown-menu">
@@ -365,7 +365,7 @@ const SideNavbar = () => {
                     замовника</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_3_1.html">Проектування ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_3_1.html" className="dropdown-item">3.1. Проектування
@@ -373,7 +373,7 @@ const SideNavbar = () => {
                     ПЗ</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_4_1.html">Кодування (програмування)</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_4_1.html" className="dropdown-item">4.1 Файлова
@@ -384,7 +384,7 @@ const SideNavbar = () => {
                     вигляді таблиці</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_5_1.html">Впровадження та супроводження ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_5_1.html" className="dropdown-item">5.1. Посилання на
@@ -400,7 +400,7 @@ const SideNavbar = () => {
         Lab 8
     </button>
     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_1_1.html">Характеристика об’єкта
                 автоматизації</a>
             <ul className="dropdown-menu">
@@ -414,7 +414,7 @@ const SideNavbar = () => {
                 <li><a href="Lab1_1_5.html" className="dropdown-item">1.5. Сценарій дій системи</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_2_1.html">ООД
                 предметного середовища</a>
             <ul className="dropdown-menu">
@@ -427,7 +427,7 @@ const SideNavbar = () => {
                     замовника</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_3_1.html">Проектування ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_3_1.html" className="dropdown-item">3.1. Проектування
@@ -435,7 +435,7 @@ const SideNavbar = () => {
                     ПЗ</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_4_1.html">Кодування (програмування)</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_4_1.html" className="dropdown-item">4.1 Файлова
@@ -446,7 +446,7 @@ const SideNavbar = () => {
                     вигляді таблиці</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_5_1.html">Впровадження та супроводження ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_5_1.html" className="dropdown-item">5.1. Посилання на
@@ -462,7 +462,7 @@ const SideNavbar = () => {
         Lab 9
     </button>
     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_1_1.html">Характеристика об’єкта
                 автоматизації</a>
             <ul className="dropdown-menu">
@@ -476,7 +476,7 @@ const SideNavbar = () => {
                 <li><a href="Lab1_1_5.html" className="dropdown-item">1.5. Сценарій дій системи</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_2_1.html">ООД
                 предметного середовища</a>
             <ul className="dropdown-menu">
@@ -489,7 +489,7 @@ const SideNavbar = () => {
                     замовника</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_3_1.html">Проектування ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_3_1.html" className="dropdown-item">3.1. Проектування
@@ -497,7 +497,7 @@ const SideNavbar = () => {
                     ПЗ</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_4_1.html">Кодування (програмування)</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_4_1.html" className="dropdown-item">4.1 Файлова
@@ -508,7 +508,7 @@ const SideNavbar = () => {
                     вигляді таблиці</a></li>
             </ul>
         </li>
-        <li className="dropdown-submenu">
+        <li className={styles.dropdown-submenu}>
             <a className="dropdown-item" href="Lab1_5_1.html">Впровадження та супроводження ПЗ</a>
             <ul className="dropdown-menu">
                 <li><a tabIndex="-1" href="Lab1_5_1.html" className="dropdown-item">5.1. Посилання на
