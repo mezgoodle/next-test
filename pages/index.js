@@ -4,10 +4,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Mezidia</title>
+        <title>Index page</title>
         <meta name='keywords' content='web dev' />
       </Head>
-      <h1>Welcome to Next</h1>
     </div>
   )
 }
