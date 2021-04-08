@@ -4,7 +4,7 @@ import Footer from '@includes/footer'
 
 export default function DefaultLayout(props){
     return (
-        <main>
+        <main className='text-center'>
             <Head>
                 <title>{props.title}</title>
                 <meta name='description' content={props.description}/>

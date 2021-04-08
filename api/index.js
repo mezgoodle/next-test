@@ -31,3 +31,5 @@ export async function getConfig(){
     const config = await import(`../config.yml`)
     return yaml.safeLoad( config.default )
 }
+
+

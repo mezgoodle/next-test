@@ -1,27 +1,28 @@
 import DefaultLayout from '@layouts/default'
 import Link from 'next/link'
-import { getConfig, getAllPosts } from '@api'
+import {getConfig, getAllPosts} from '@api'
 
-export default function Blog(props){
+export default function Blog(props) {
     return (
         <DefaultLayout title={props.title} description={props.description}>
-            <p>List of posts:</p>
-            <ul>
-                {props.posts.map(function(post, idx){
+            <hr/>
+            <div>
+                {props.posts.map(function (post) {
                     return (
-                        <li key={idx}>
-                            <Link href={'/posts/'+post.slug}>
-                                <a>{post.title}</a>
-                            </Link>
-                        </li>
+                        <div className='col p-4 d-flex flex-column position-static'>
+                            <strong className='d-inline-block mb-2 text-primary'>Hello</strong>
+                            <h3 className='mb-0'>{post.title}</h3>
+                            <div className='mb-1 text-muted'>13-321-2</div>
+                            <Link href={'/posts/' + post.slug}>Continue reading</Link>
+                        </div>
                     )
                 })}
-            </ul>
+            </div>
         </DefaultLayout>
     )
-} 
+}
 
-export async function getStaticProps(){
+export async function getStaticProps() {
     const config = await getConfig()
     const allPosts = await getAllPosts()
 
